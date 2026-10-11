@@ -52,7 +52,7 @@ h1 em, h2 em { color: var(--gold); font-weight: 400; }
 .hero-note strong { color: #e6d5bd; font-weight: 500; }
 .note-icon { font-size: 29px; color: var(--gold); }
 .hero-visual { min-height: 650px; position: relative; background: #4a2c1d; }
-.hero-image { position: absolute; inset: 0; background-image: linear-gradient(90deg, rgba(36,18,14,.12), rgba(36,18,14,0) 30%), url("assets/amora-chocolate-hero.png"); background-size: cover; background-position: center; }
+.hero-image { position: absolute; inset: 0; background-image: linear-gradient(90deg, rgba(36,18,14,.12), rgba(36,18,14,0) 30%), url("/amora-chocolate-hero.png"); background-size: cover; background-position: center; }
 .hero-frame { position: absolute; z-index: 1; inset: 22px; border: 1px solid rgba(230,197,137,.34); pointer-events: none; }
 .image-stamp { position: absolute; z-index: 2; top: 10%; right: 9%; width: 110px; height: 110px; border: 1px solid rgba(236,208,158,.8); border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--gold-light); transform: rotate(9deg); background: rgba(37,18,12,.34); }
 .image-stamp span { font-size: 7px; letter-spacing: .16em; }
