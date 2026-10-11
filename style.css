@@ -98,7 +98,7 @@ h2 { font-size: clamp(36px, 4.2vw, 55px); line-height: 1.15; margin-bottom: 0; }
 .demo-note { margin: 27px 0 0; color: #9a8976; font-size: 9px; text-align: center; }
 .story { display: grid; grid-template-columns: 1fr 1fr; gap: 9%; align-items: center; background: #e9dcc9; }
 .story-image { min-height: 460px; position: relative; background: linear-gradient(145deg, #4b2b1c, #21110c); padding: 25px; }
-.story-image-inner { position: absolute; inset: 25px; background: url("assets/amora-chocolate-hero.png") center 61%/cover; filter: sepia(.2); opacity: .88; }
+.story-image-inner { position: absolute; inset: 25px; background: url("/amora-chocolate-hero.png") center 61%/cover; filter: sepia(.2); opacity: .88; }
 .story-image:after { content: ""; position: absolute; inset: 25px; background: linear-gradient(0deg, rgba(27,12,7,.7), transparent 70%); }
 .story-quote { position: absolute; z-index: 1; left: 13%; bottom: 13%; color: #f6e3c1; font: 32px/1.2 var(--serif); }
 .story-quote em { font-family: var(--script); font-size: 44px; font-weight: 400; }
